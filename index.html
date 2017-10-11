@@ -16,6 +16,9 @@
 @page {
   size: A4;
 }
+b {
+	color: #cf8a05;
+}
 </style>
 </head>
 <body id="top">
@@ -27,7 +30,7 @@
 		
 		<div id="name">
 			<h1 class="quickFade delayTwo">Colin LORRAIN</h1>
-			<h2 class="quickFade delayThree">Lead Developer JAVA</h2>
+			<h2 class="quickFade delayThree">Lead Developer</h2>
 		</div>
 		
 		<div id="contactDetails" class="quickFade delayFour">
@@ -60,36 +63,38 @@
 			
 			<div class="sectionContent">
 				<article>
-					<h2>Lead Developpeur @ KDS.com</h2>
+					<h2>Lead Developer @ KDS.com</h2>
 					<p class="subDetails">Janvier 2017 - *</p>
-					<p>KDS est une société de Travel &amp; Expense (Gestion de déplacements professionnel &amp; notes de frais). KDS m'a proposé de travailler sur un projet de plateforme hautement critique de web service REST pour aggréger la connexion aux fournisseurs de données et fournir une interface unifiée pour les recherches et les réservations d'hôtels. Pour plus de détails, se référer à la section dédiée.</p>
+					<p>Contexte : <b>Service REST</b> destiné à la recherche et à la réservation d'hôtels. Projet 100% <b>Back-End</b>, architecturé autour de <b>Micro-Service</b> orchestrés autour d'un bus <b>RabbitMQ</b>. Le projet est développé selon le principe <b>Continuous Integration / Continuous Delivery</b> avec des <b>tests unitaires</b> et des <b>tests d'intégration</b> qui assurent la fiabilité de l'application avant déploiement. Le projet utilise se base aussi sur le principe <b>DevOps</b>, avec <b>Docker</b> et <b>Ansible</b>.</p>
 					<p>Stack : C#, .Net Core, Redis, RabbitMQ, Docker, Ansible, GIT, TeamCity, Nexus</p>
+					<p>Pour plus de détails, se référer à la section dédiée en fin de document.</p>
 				</article>
 				
 				<article>
 					<h2>Break Professionnel - Road Trip Wwoofing</h2>
 					<p class="subDetails">Avril 2016 - Décembre 2016</p>
-					<p>J'ai décidé de me prendre quelques mois pour aller découvrir le sud de la France. Je suis donc parti faire du Wwoofing dans le midi, du Var aux Pyrénées. Portfolio visible sur https://www.facebook.com/WwoofingTour2016 </p>
+					<p>Road trip sur les routes de France. Portfolio visible sur https://www.facebook.com/WwoofingTour2016 </p>
 				</article>
 				
 				<article>
-					<h2>Lead Developpeur JAVA, Architecte @ Ludi.com</h2>
+					<h2>Lead Developer JAVA, Architecte @ Ludi.com</h2>
 					<p class="subDetails">Décembre 2011 - Avril 2016</p>
-					<p>Ludi.com est une société de jeux de cartes en ligne. Initialement employé pour mes compétences Frontend afin de créer un client de jeu jouable directement dans le navigateur, j'ai finalement été amené à refondre complétement back et front. Pour plus de détails, se référer à la section dédiée.</p>
+					<p>Contexte : Site de jeux en ligne multi-utilisateurs, <b>multi-plateformes (desktop, Facebook, mobile) et temps réel</b>. Les jeux se font directement dans le navigateur avec un client <b>HTML5</b>connecté en <b>websockets</b>. Le serveur est découpé en <b>micro-services</b> architecturés autour d'un <b>Redis</b>. Des <b>tests unitaires</b> valident les parties les plus critiques.</p>
 					<p>Stack : JAVA, Websockets, Node.JS, REDIS, SQLServer, GWT, HTML5, JS, CSS, GIT, TeamCity</p>
+					<p>Pour plus de détails, se référer à la section dédiée en fin de document.</p>
 				</article>
 				
 				<article>
 					<h2>Freelance @ Kolle-Bolle</h2>
 					<p class="subDetails">Mars 2005 - Décembre 2011</p>
-					<p>Kolle-Bolle est un collectif de graphistes freelance s'adressant à des PME et des institutions culturelles. J'ai exercé en tant que développeur freelance pour réaliser les sites des clients. Les prestations vont du site type wordpress au webdoc pour Arte</p>
+					<p>Contexte : <b>Freelance</b> au sein d'un collectif de graphistes, j'ai été amené à réaliser de nombreux <b>sites de contenus</b> sur base <b>Wiki ou WordPress</b> pour des clients institutionnels du domaine culturel tels que le Transbordeur Lyon ou Arte</p>
 					<p>Stack : HTML, JS, CSS, PHP, FLASH</p>
 				</article>
 				
 				<article>
 					<h2>Développeur JAVA, Chef de projet @ SQLi</h2>
 					<p class="subDetails">2001 - 2004</p>
-					<p>Après avoir été embauché pour venir en renfort sur un projet ASP à finir, j'ai été ensuite pris sur les projets JAVA d'un gros client. Les résultats ont été si concluants que je me suis vu confier la gestion et la réalisation de 5 "petits" projets de 40KE à 80 KE.</p>
+					<p>Contexte : En tant que prestataire, je suis intervenu sur de nombreux projets Web, principalement basé sur <b>J2EE/Tomcat</b>. Mes compétences relationnelles et techniques m'ont permis d'être rapidement amené à intervenir en tant que <b>chef de projet</b> sur des projets de 40 à 80 K€.</p>
 					<p>Stack : JAVA, TOMCAT, HTML, CSS, JS</p>
 				</article>
 			</div>
@@ -104,7 +109,7 @@
 				<article>
 					<h2>IUT GEII @ Mulhouse</h2>
 					<p class="subDetails">1996 - 1998</p>
-					<p>N'ayant pas accès à une école spécifique liée à l'informatique, j'ai fait ce qu'il y avait de plus proche. Mes compétences informatiques viennent surtout de mon coté autodidacte.</p>
+					<p>N'ayant pas accès à une école spécifique liée à l'informatique, j'ai fait ce qu'il y avait de plus proche. Mes compétences informatiques viennent surtout de mon côté autodidacte.</p>
 				</article>
 			</div>
 			<div class="clear"></div>
@@ -124,13 +129,13 @@
 					Problématiques :<ul>
 					<li>Installation du programme difficile et rebutante pour les utilisateurs<br/>
 					<li>Serveur non documenté maintenu par une seule personne<br/>
-					<li>Crash réguliers entrainant des remboursements de tous les joueurs affectés du fait d'une tracabilité catastrophique</ul>
+					<li>Crashs réguliers entrainant des remboursements de tous les joueurs affectés du fait d'une traçabilité catastrophique</ul>
 					<br/>
 					Stack : VB6, Sockets, SQLServer<br/>
 					<br/>
 					<strong>Contexte final</strong><br/>
 					Jeu jouables directement dans le navigateur sur toutes plateformes desktop/mobiles via un client HTML5<br/>
-					Serveur orienté micro-services, scalable, hot-swappable, redondant, et tracable grâce a l'utilisation de middleware messages.<br/>
+					Serveur orienté micro-services, scalable, hot-swappable, redondant, et traçable grâce a l'utilisation de middleware messages.<br/>
 					API claires et documentées<br/>
 					<br/>
 					Stack : JAVA, Websockets, Node.JS, REDIS, SQLServer, GWT, HTML5, GIT, TeamCity<br/>
@@ -152,13 +157,13 @@
 			<div class="sectionContent">
 				<article>
 					<p><strong>Projet</strong><br/>
-					Service REST de recherche et résertvation d'hôtel<br/>
+					Service REST de recherche et réservation d'hôtel<br/>
 					<br/>
 					<strong>Contexte</strong><br/>
 					Projet from scratch pour exposer les opérations de recherche et de réservation d'hotels sous forme d'un service REST.<br/>
 					Le projet se décompose en deux parties :<ul>
-					<li>une partie de collecte de données fournisseurs, parsées et mises en cache, et associées a un moteur de recherche géographique
-					<li>une partie de connexion à des fournisseurs pour les réservations structurée en workers travaillant autour d'un bus RabbitMQ.<br/>
+					<li>Une partie de collecte de données fournisseurs, parsées et mises en cache, et associées a un moteur de recherche géographique
+					<li>Une partie de connexion à des fournisseurs pour les réservations structurée en workers travaillant autour d'un bus RabbitMQ.<br/>
 					<br/>
 					Stack : C#, .Net Core, Redis, RabbitMQ, Docker, Ansible, GIT, TeamCity, Nexus, ELK<br/>
 					<br/>
